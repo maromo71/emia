@@ -50,7 +50,7 @@ $stmt->execute();
                         <tr>
                             <td><?php echo $user['name'] ?></td>
                             <td><?php echo $user['email'] ?></td>
-                            <td><?php echo ($user['gender'] == 'm') ? 'Masculino' : 'Feminino' ?></td>
+                            <td><?php echo ($user['gender'] == 'M') ? 'Masculino' : 'Feminino' ?></td>
                             <td><?php echo dateConvert($user['birthdate']) ?></td>
                             <td><?php echo calculateAge($user['birthdate']) ?> anos</td>
                             <td>
